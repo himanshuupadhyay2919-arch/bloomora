@@ -24,10 +24,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // ⬇️ PUT YOUR MONGODB ATLAS CONNECTION STRING HERE (or use env var) ⬇️
-const MONGO_URI =
-  process.env.MONGO_URI ||
-  "mongodb+srv://bloomora_new:bloomora123@cluster0.7bkrpbq.mongodb.net/?appName=Cluster0";
-
+const MONGO_URI =  process.env.MONGO_URI 
 app.use(express.json());
 
 // =============================
